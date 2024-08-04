@@ -4,9 +4,9 @@
 
 body {
   font-family: "Manrope", sans-serif;
-  width: 100%;
   background-color: #ffffff;
 }
+
 .container {
   width: 1150px;
   margin: 0 auto;
@@ -60,8 +60,8 @@ body {
   height: 500px;
   background-image: url(/resources/Rectangle\ 1.png);
   background-repeat: no-repeat;
-  display: flex;
-  align-items: flex-end;
+  background-size: cover;
+  background-position: 50%;
   margin-bottom: 148px;
 }
 
@@ -104,15 +104,15 @@ body {
   height: 67px;
   border: 1px solid #ad1818;
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   background-color: #ad1818;
   text-align: center;
   line-height: 62px;
   border-radius: 5px;
+  font-size: 20px;
 }
 
 .item-list {
-
 }
 
 .item__projects {
@@ -304,8 +304,8 @@ body {
 @media (max-width: 1149px) {
   .container {
     width: 100%;
-    margin-left: 17px;
-    margin-right: 15px;
+    padding-left: 17px;
+    padding-right: 15px;
   }
 
   .img__header {
@@ -317,6 +317,76 @@ body {
   }
 
   .item__img {
+    width: 100%;
+  }
+
+  .container__about__us {
+    width: 100%;
+  }
+}
+
+@media (max-width: 959px) {
+  .header__text {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+
+  .img__header {
+    margin-bottom: 120px;
+  }
+
+  .about__us {
+    width: 693px;
+    letter-spacing: -0.08rem;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 47.81px;
+    margin-bottom: 30px;
+  }
+
+  .url__All_services {
+    margin-bottom: 120px;
+  }
+
+  .item__projects {
+    padding-bottom: 80px;
+  }
+
+  .item__projects-last {
+    padding-bottom: 102px;
+  }
+
+  .item__title {
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 34.15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-left: 13px;
+    padding-right: 12px;
+  }
+
+  .header__text {
+    font-size: 30px;
+    line-height: 31.62px;
+    margin-bottom: 25px;
+  }
+
+  .img__header {
+    margin-bottom: 80px;
+  }
+
+  .paragraphe__img {
+    font-size: 16px;
+    line-height: 21.86pxx;
+    letter-spacing: -0.04rem;
+  }
+
+  .about__us {
     width: 100%;
   }
 }
