@@ -381,6 +381,9 @@ body {
   }
 
   .paragraphe__img {
+    position: static;
+    width: 100%;
+    padding-top: 201px;
     font-size: 16px;
     line-height: 21.86pxx;
     letter-spacing: -0.04rem;
@@ -388,5 +391,7 @@ body {
 
   .about__us {
     width: 100%;
+    font-size: 22px;
+    line-height: 30.05px;
   }
 }
