@@ -334,6 +334,7 @@ body {
 
   .img__header {
     margin-bottom: 120px;
+    height: 400px;
   }
 
   .about__us {
@@ -378,12 +379,15 @@ body {
 
   .img__header {
     margin-bottom: 80px;
+    height: 304px;
   }
 
   .paragraphe__img {
     position: static;
     width: 100%;
     padding-top: 201px;
+    padding-right: 23px;
+    padding-left: 15px;
     font-size: 16px;
     line-height: 21.86pxx;
     letter-spacing: -0.04rem;
@@ -393,5 +397,13 @@ body {
     width: 100%;
     font-size: 22px;
     line-height: 30.05px;
+  }
+
+  .url__All_services {
+    width: 197px;
+    height: 51px;
+    font-size: 16px;
+    line-height: 21.86px;
+    padding-top: 14.5px;
   }
 }
